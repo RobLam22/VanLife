@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function About() {
     return (
         <>
@@ -22,6 +24,7 @@ export function About() {
                     <p>Your destination is waiting.</p>
                     <p>Your van is ready.</p>
                     <button>Explore our vans</button>
+                    {/* change to links */}
                 </div>
             </div>
         </>
