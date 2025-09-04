@@ -15,6 +15,9 @@ body {
     max-height: 100px;
     background-color: #fff7ed;
     padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .navbar > h1 {
     display: flex;
@@ -27,6 +30,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 40px;
 }
 
 .navbar > li > a {
@@ -40,9 +44,9 @@ a:link {
 }
 
 .footer {
-    /* position: fixed;
+    position: fixed;
     bottom: 0;
-    width: 100%; */
+    width: 100%;
     background-color: #252525;
     height: 60px;
     display: flex;
@@ -55,6 +59,7 @@ a:link {
 }
 
 .home {
+    margin-top: 80px;
     background-image: url('./assets/home.png');
     height: 300px;
     background-size: cover;
@@ -126,6 +131,62 @@ a:link {
     font-size: 16px;
     font-weight: 700;
     margin-top: 40px;
+}
+
+.van-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    place-items: center;
+}
+
+.van-card {
+    overflow: hidden;
+    padding: auto 20px;
+    max-width: 250px;
+    font-family: sans-serif;
+}
+
+.van-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.van-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.van-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.van-price {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.van-price span {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.van-tag {
+    display: inline-block;
+    background: #e17654;
+    color: white;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-transform: capitalize;
 }
 
 /* * {
