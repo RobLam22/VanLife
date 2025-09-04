@@ -58,8 +58,11 @@ a:link {
     color: #aaaaaa;
 }
 
-.home {
+.body {
     margin-top: 80px;
+}
+
+.home {
     background-image: url('./assets/home.png');
     height: 300px;
     background-size: cover;

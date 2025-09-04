@@ -1,6 +1,6 @@
 export function Home() {
     return (
-        <div className="home">
+        <div className="home body">
             <section>
                 <h1>You got the travel plans, we got the travel vans.</h1>
                 <p>
