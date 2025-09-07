@@ -1,7 +1,7 @@
-export function Reviews() {
+export function Dashboard() {
     return (
         <div className="body">
-            <h1>Host Reviews</h1>;
+            <h1>Host Dash</h1>
         </div>
     );
 }

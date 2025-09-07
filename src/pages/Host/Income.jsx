@@ -1,7 +1,7 @@
-export function Host() {
+export function Income() {
     return (
         <div className="body">
-            <h1>Host Dash</h1>
+            <h1>Host Income</h1>
         </div>
     );
 }
